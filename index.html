@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <script type="module" crossorigin src="/assets/index-CZe2SBcr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-UH5t46LS.css">
+  </head>
+  <body>
+    <main class="min-h-screen min-w-full bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div class="flex flex-col">
+        <h2 class="mx-auto mt-10 md:mt-20 text-6xl font-bold dark:text-white">
+          EurOrbit
+        </h2>
+        <h4 class="mx-auto mt-7 md:mt-12 text-3xl font-bold dark:text-white">
+          European Weather Forecast
+        </h4>
+        <p class="mx-auto mt-7 md:mt-10 text-xl font-bold dark:text-white">
+          Powered by
+          <button
+            class="border border-green-400 bg-inherit rounded px-2 py-0.5"
+          >
+            7Timer!
+          </button>
+        </p>
+      </div>
+
+      <div class="flex mt-7">
+        <select
+          form="Area"
+          class="mx-auto p-1 font-bold outline-none"
+          id="area"
+        >
+          <option value disabled selected>--Please choose an option--</option>
+        </select>
+      </div>
+
+      <div
+        class="flex flex-row justify-between gap-3 flex-wrap mt-4"
+        id="content"
+      ></div>
+      <footer class="flex items-center justify-center fixed  bottom-8 text-white text-xl left-[43%]">
+        <p>&copy; Copyright 2023 EurOrbit</p>
+      </footer>
+    </main>
+  </body>
+</html>
+
+<!--         <div class="flex flex-col w-1/6 flex-wrap bg-white">
+          <div
+            class="bg-red-400 font-bold text-white p-2 items-center text-center space-y-3"
+          >
+            <p>DATE</p>
+            <div class="flex justify-center">
+              <img src="/public/assets/clear.png" alt="clear" />
+            </div>
+          </div>
+          <div class="bg-sky-700 text-center p-2">
+            <p class="text-white mb-5">Cloudy</p>
+            <p class="text-gray-900 font-semibold text-lg mb-0.5">H: 1&deg;C</p>
+            <p class="text-gray-900 font-semibold text-lg">L: -1&deg;C</p>
+          </div>
+        </div> -->
