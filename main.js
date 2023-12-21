@@ -185,7 +185,7 @@ const datas = [
     city: "Zurich",
     country: "Switzerland",
   },
-],
+];
 const selectElem = document.querySelector("#area");
 const contentElem = document.querySelector("#content");
 let WeatherData;
