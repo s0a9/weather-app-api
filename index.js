@@ -51,7 +51,7 @@ selectElem.addEventListener("change", () => {
           >
             <p>${getDayName(cast.date)}</p>
             <div class="flex justify-center">
-              <img src="/public/assets/${cast.weather}.png" alt="clear" />
+              <img src="/assets/${cast.weather}.png" alt="clear" />
             </div>
           </div>
           <div class="bg-sky-700 text-center p-2">
